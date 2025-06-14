@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['digit_area']
+
+roboflow:
+  workspace: dogs-lkgk6
+  project: meter-reader-xovnk
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dogs-lkgk6/meter-reader-xovnk/dataset/4
