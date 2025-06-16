@@ -8,9 +8,5 @@
 ส่งค่าที่อ่านได้กลับไปเป็น JSON
 
 
---train model
-python train_yolo.py
-
-
 -- run api
 uvicorn main:app --reload
